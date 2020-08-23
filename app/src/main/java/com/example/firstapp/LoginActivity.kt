@@ -41,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
             editor.putString("Name",name)
             editor.putBoolean("Check",true)
             editor.apply()
-            val  intent=Intent(this, AfterLoginActivity::class.java)
+            val  intent=Intent(this, MusicActivity::class.java)
             startActivity(intent)
 
         }
