@@ -64,12 +64,14 @@
            android:id="@+id/logId"
            android:layout_width="match_parent"
            android:layout_height="match_parent"
-           android:enabled="false"
            android:layout_gravity="center_horizontal"
            android:layout_marginTop="30dp"
            android:layout_marginBottom="30dp"
            android:background="@drawable/loginbuttonbackground"
+
+           android:onClick="login"
            android:text="Log In"
+
            android:textAllCaps="false"
            android:textSize="20sp" />
 

@@ -14,11 +14,7 @@
         android:theme="@style/AppTheme" >
         <activity android:name=".RecorderActivity" >
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".MusicActivity" >
         </activity>
@@ -27,7 +23,11 @@
             android:name=".LoginActivity"
             android:theme="@style/LoginPage"
             android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".FormActivity" />
         <activity android:name=".MainActivity" />
